@@ -1,34 +1,26 @@
-# Facial Recognition Live Streaming Application
+# Live Video Streaming Service with Facial Recognition
 
 
-This application uses Flask and Socket io to create a server and waitress to allow multi threading og the application.
+This application uses Flask, Socket.io, waitress to create a multi threading web application running on web server.
 
-It uses the face_recognition library along with open cv to perform facial recognition on some faces provided in the faceImages folder.
+It uses the face_recognition library and open cv to perform face detection and recognition.
 
-How to sart the application:
+How to start the application:
 
-Pip3 installs
+Please install the libraries stated in the requirements.txt, if they can not be installed, please refer my report, it may help 
  
 ```
 pip3 install requirements.txt
-
 ```
 
-If that doesnt work you might want to try installing them individually.
-
-If youre seeing errors these libraries might be depandant on other libraries so you might have to do a update.
-
-To Launch
+To Launch please run 
 
 ```
 python server.py
-
 ```
-One the server script is ran successfuly you can navigate to http://localhost:8080 or the lint that is given by the console.
+Once it runs, you can navigate to http://localhost:8080 or the lint that is given by the console.
 
 Video https://youtu.be/ZMH8R_JGjMc
-<!-- ## This is the expected result
 
-![example]() -->
 
 
