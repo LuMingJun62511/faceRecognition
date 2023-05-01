@@ -20,7 +20,7 @@ python server.py
 ```
 Once it runs, you can navigate to http://localhost:8080 or the lint that is given by the console.
 
-Video https://youtu.be/ZMH8R_JGjMc
+Video https://youtu.be/9ZG9fBuLFAA
 
 
 
